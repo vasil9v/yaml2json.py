@@ -1,0 +1,2 @@
+- Vasil Daskalopoulos, Original Author
+- Joscha Krutzki, setuptool support
