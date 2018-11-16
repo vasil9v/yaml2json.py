@@ -91,7 +91,7 @@ def convertArrays(o):
     have keys be anything other than strings even though that is valid in a
     python dict. This function recursively converts a python dict tree into
     one where any dicts where all the keys are ints are made into arrays. It
-    makes sure the order is preserved.    
+    makes sure the order is preserved.
     """
     allNums = True
     if type(o) == type([]):
@@ -147,7 +147,7 @@ def yaml2json():
     Main function, first arg is the input file, optional second one is the output
     file. If no output file is specified then the output is written to stdout.
     The input file is parsed as YAML and converted to a python dict tree, then
-    that tree is converted to the JSON output. There is a check to make sure the 
+    that tree is converted to the JSON output. There is a check to make sure the
     two dict trees are structurally identical.
     """
     if len(sys.argv) > 1:
